@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B39DA67D-8568-4B05-8090-370948500723</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E2F332394D1C26F20F2D0F5CDBC38B552C0910CA</key>
+		<string>ssh://bitbucket.org/martinpham/kigg-ios-tweaks.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E2F332394D1C26F20F2D0F5CDBC38B552C0910CA</key>
+		<string>KIGG-Tweaks/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://bitbucket.org/martinpham/kigg-ios-tweaks.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E2F332394D1C26F20F2D0F5CDBC38B552C0910CA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E2F332394D1C26F20F2D0F5CDBC38B552C0910CA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KIGG-Tweaks</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+  <key>entry</key>
+  <dict>
+	  <key>cell</key>
+	  <string>PSLinkCell</string>
+	  <key>icon</key>
+    <string>icon.png</string>
+	  <key>label</key>
+	  <string>Rotate+</string>
+  </dict>
+  <key>title</key>
+  <string>Rotate+</string>
+  <key>items</key>
+  <array>
+	  <dict>
+		  <key>cell</key>
+		  <string>PSSwitchCell</string>
+		  <key>defaults</key>
+		  <string>gg.ki.rotateplus</string>
+		  <key>key</key>
+		  <string>rotateplus</string>
+		  <key>label</key>
+		  <string>Enable</string>
+		  <key>default</key>
+		  <false/>
+		  <key>PostNotification</key>
+		  <string>gg.ki.rotateplus/preferences.changed</string>
+	  </dict>
+	  <dict>
+		  <key>cell</key>
+		  <string>PSSwitchCell</string>
+		  <key>defaults</key>
+		  <string>gg.ki.rotateplus</string>
+		  <key>key</key>
+		  <string>rotateplus.sb</string>
+		  <key>label</key>
+		  <string>Enable SpringBoard rotation</string>
+		  <key>default</key>
+		  <false/>
+		  <key>PostNotification</key>
+		  <string>gg.ki.rotateplus/preferences.changed</string>
+	  </dict>
+	  <dict>
+		  <key>cell</key>
+		  <string>PSSwitchCell</string>
+		  <key>defaults</key>
+		  <string>gg.ki.rotateplus</string>
+		  <key>key</key>
+		  <string>rotateplus.ls</string>
+		  <key>label</key>
+		  <string>Enable Lockscreen rotation</string>
+		  <key>default</key>
+		  <false/>
+		  <key>PostNotification</key>
+		  <string>gg.ki.rotateplus/preferences.changed</string>
+	  </dict>
+	  
+	  <dict>
+		  <key>cell</key>
+		  <string>PSGroupCell</string>
+		  <key>footerText</key>
+		  <string>Donate http://gg.gg/donate-kigg</string>
+		  <key>footerAlignment</key>
+		  <string>1</string>
+	  </dict>
+	  <dict>
+		  <key>cell</key>
+		  <string>PSGroupCell</string>
+		  <key>footerText</key>
+		  <string>KI.GG</string>
+		  <key>footerAlignment</key>
+		  <string>1</string>
+	  </dict>
+	  
+  </array>
+	</dict>
+</plist>

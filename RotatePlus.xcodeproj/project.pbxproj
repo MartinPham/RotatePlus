@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EEE35F71A09E7C100DE7065 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EEE35F61A09E7C100DE7065 /* Foundation.framework */; };
+		5EEE36011A09E7C100DE7065 /* RotatePlus.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5EEE36001A09E7C100DE7065 /* RotatePlus.mm */; };
+		5EEE36101A09E82A00DE7065 /* RotatePlus-hook.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EEE360E1A09E82A00DE7065 /* RotatePlus-hook.h */; };
+		5EEE36111A09E82A00DE7065 /* RotatePlus-load.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EEE360F1A09E82A00DE7065 /* RotatePlus-load.h */; };
+		5EEE36131A09E86300DE7065 /* shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EEE36121A09E86300DE7065 /* shared.h */; };
+		5EEE36161A09EA0E00DE7065 /* OverrideTraitRootViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EEE36141A09EA0E00DE7065 /* OverrideTraitRootViewController.h */; };
+		5EEE36171A09EA0E00DE7065 /* OverrideTraitRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEE36151A09EA0E00DE7065 /* OverrideTraitRootViewController.m */; };
+		5EEE36191A09EA9E00DE7065 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EEE36181A09EA9E00DE7065 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5EEE35F31A09E7C100DE7065 /* RotatePlus.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = RotatePlus.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEE35F61A09E7C100DE7065 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5EEE35FB1A09E7C100DE7065 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		5EEE35FC1A09E7C100DE7065 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		5EEE35FE1A09E7C100DE7065 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		5EEE35FF1A09E7C100DE7065 /* RotatePlus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RotatePlus-Prefix.pch"; sourceTree = "<group>"; };
+		5EEE36001A09E7C100DE7065 /* RotatePlus.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RotatePlus.mm; sourceTree = "<group>"; };
+		5EEE36051A09E7C100DE7065 /* RotatePlus.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RotatePlus.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/RotatePlus.plist; sourceTree = "<group>"; };
+		5EEE360D1A09E81E00DE7065 /* gg.ki.rotateplus.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = gg.ki.rotateplus.plist; sourceTree = "<group>"; };
+		5EEE360E1A09E82A00DE7065 /* RotatePlus-hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RotatePlus-hook.h"; sourceTree = "<group>"; };
+		5EEE360F1A09E82A00DE7065 /* RotatePlus-load.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RotatePlus-load.h"; sourceTree = "<group>"; };
+		5EEE36121A09E86300DE7065 /* shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shared.h; sourceTree = "<group>"; };
+		5EEE36141A09EA0E00DE7065 /* OverrideTraitRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverrideTraitRootViewController.h; path = "../../KIGG-Tweaks/KIGGTweaks/OverrideTraitRootViewController.h"; sourceTree = "<group>"; };
+		5EEE36151A09EA0E00DE7065 /* OverrideTraitRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OverrideTraitRootViewController.m; path = "../../KIGG-Tweaks/KIGGTweaks/OverrideTraitRootViewController.m"; sourceTree = "<group>"; };
+		5EEE36181A09EA9E00DE7065 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EEE35EF1A09E7C100DE7065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEE36191A09EA9E00DE7065 /* UIKit.framework in Frameworks */,
+				5EEE35F71A09E7C100DE7065 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EEE35E91A09E7C100DE7065 = {
+			isa = PBXGroup;
+			children = (
+				5EEE35F81A09E7C100DE7065 /* RotatePlus */,
+				5EEE35F51A09E7C100DE7065 /* Frameworks */,
+				5EEE35F41A09E7C100DE7065 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EEE35F41A09E7C100DE7065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EEE35F31A09E7C100DE7065 /* RotatePlus.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EEE35F51A09E7C100DE7065 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EEE36181A09EA9E00DE7065 /* UIKit.framework */,
+				5EEE35F61A09E7C100DE7065 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EEE35F81A09E7C100DE7065 /* RotatePlus */ = {
+			isa = PBXGroup;
+			children = (
+				5EEE36121A09E86300DE7065 /* shared.h */,
+				5EEE360E1A09E82A00DE7065 /* RotatePlus-hook.h */,
+				5EEE360F1A09E82A00DE7065 /* RotatePlus-load.h */,
+				5EEE36141A09EA0E00DE7065 /* OverrideTraitRootViewController.h */,
+				5EEE36151A09EA0E00DE7065 /* OverrideTraitRootViewController.m */,
+				5EEE36001A09E7C100DE7065 /* RotatePlus.mm */,
+				5EEE35F91A09E7C100DE7065 /* Package */,
+				5EEE35FD1A09E7C100DE7065 /* Supporting Files */,
+			);
+			path = RotatePlus;
+			sourceTree = "<group>";
+		};
+		5EEE35F91A09E7C100DE7065 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				5EEE35FA1A09E7C100DE7065 /* DEBIAN */,
+				5EEE36021A09E7C100DE7065 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		5EEE35FA1A09E7C100DE7065 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				5EEE35FB1A09E7C100DE7065 /* control.txt */,
+				5EEE35FC1A09E7C100DE7065 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		5EEE35FD1A09E7C100DE7065 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EEE35FE1A09E7C100DE7065 /* PackageVersion.plist */,
+				5EEE35FF1A09E7C100DE7065 /* RotatePlus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EEE36021A09E7C100DE7065 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				5EEE360B1A09E81E00DE7065 /* PreferenceLoader */,
+				5EEE36031A09E7C100DE7065 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		5EEE36031A09E7C100DE7065 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				5EEE36041A09E7C100DE7065 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		5EEE36041A09E7C100DE7065 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				5EEE36051A09E7C100DE7065 /* RotatePlus.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		5EEE360B1A09E81E00DE7065 /* PreferenceLoader */ = {
+			isa = PBXGroup;
+			children = (
+				5EEE360C1A09E81E00DE7065 /* Preferences */,
+			);
+			name = PreferenceLoader;
+			path = Package/Library/PreferenceLoader;
+			sourceTree = "<group>";
+		};
+		5EEE360C1A09E81E00DE7065 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				5EEE360D1A09E81E00DE7065 /* gg.ki.rotateplus.plist */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5EEE35F01A09E7C100DE7065 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEE36101A09E82A00DE7065 /* RotatePlus-hook.h in Headers */,
+				5EEE36131A09E86300DE7065 /* shared.h in Headers */,
+				5EEE36161A09EA0E00DE7065 /* OverrideTraitRootViewController.h in Headers */,
+				5EEE36111A09E82A00DE7065 /* RotatePlus-load.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5EEE35F21A09E7C100DE7065 /* RotatePlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EEE36081A09E7C100DE7065 /* Build configuration list for PBXNativeTarget "RotatePlus" */;
+			buildPhases = (
+				5EEE35EE1A09E7C100DE7065 /* Sources */,
+				5EEE35EF1A09E7C100DE7065 /* Frameworks */,
+				5EEE35F01A09E7C100DE7065 /* Headers */,
+				5EEE35F11A09E7C100DE7065 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotatePlus;
+			productName = RotatePlus;
+			productReference = 5EEE35F31A09E7C100DE7065 /* RotatePlus.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EEE35EA1A09E7C100DE7065 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					5EEE35F21A09E7C100DE7065 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 5EEE35ED1A09E7C100DE7065 /* Build configuration list for PBXProject "RotatePlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5EEE35E91A09E7C100DE7065;
+			productRefGroup = 5EEE35F41A09E7C100DE7065 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EEE35F21A09E7C100DE7065 /* RotatePlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EEE35F11A09E7C100DE7065 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EEE35EE1A09E7C100DE7065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEE36011A09E7C100DE7065 /* RotatePlus.mm in Sources */,
+				5EEE36171A09EA0E00DE7065 /* OverrideTraitRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5EEE36061A09E7C100DE7065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		5EEE36071A09E7C100DE7065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		5EEE36091A09E7C100DE7065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotatePlus/RotatePlus-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 192.168.1.103;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		5EEE360A1A09E7C100DE7065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotatePlus/RotatePlus-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 192.168.1.103;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EEE35ED1A09E7C100DE7065 /* Build configuration list for PBXProject "RotatePlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEE36061A09E7C100DE7065 /* Debug */,
+				5EEE36071A09E7C100DE7065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EEE36081A09E7C100DE7065 /* Build configuration list for PBXNativeTarget "RotatePlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEE36091A09E7C100DE7065 /* Debug */,
+				5EEE360A1A09E7C100DE7065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EEE35EA1A09E7C100DE7065 /* Project object */;
+}

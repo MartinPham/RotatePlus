@@ -1,0 +1,17 @@
+Package: gg.ki.RotatePlus
+Name: RotatePlus
+Version: 1.0-3
+Description: 
+Section: Tweaks
+Depends: firmware (>= 8.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: KIGG
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: 
+
